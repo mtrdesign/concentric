@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    width: 630px;
+    height: 600px;
+    border: 1px solid #000;
+    background-color: #FFF;
+    float: left;
+    margin-right: 5px;
+}
+
+.concentric-layer-1 {
+    border-color: #F7F;
+}
+.concentric-layer-2 {
+    border-color: #F70;
+}
+.concentric-layer-3 {
+    border-color: #AA0;
+}
+.concentric-layer-4 {
+    border-color: #AAA;
+}
+
+.concentric-core > img, .concentric-item > img {
+    width: 100%;
+    height: 100%;
+}
+
+.concentric-item {
+    border-color: #37D;
+}
